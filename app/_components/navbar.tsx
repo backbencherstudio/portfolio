@@ -6,7 +6,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between py-8">
                 {/* Logo */}
                 <div>
-                    <h1 className="text-[40px] font-bold">Mg<span className="text-blue-500">.</span></h1>
+                    <h1 className="text-[40px] font-bold text-white">Mg<span className="text-blue-500">.</span></h1>
                 </div>
 
                 {/* Gradient Shadow Button */}
