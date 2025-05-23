@@ -1,10 +1,9 @@
 import React from 'react';
-import { ArrowDownRight } from 'lucide-react';
 import BottomArrowIcon from '@/public/icons/bottom-arrow-icon';
 
 export default function Banner() {
     return (
-        <div className='container py-28'>
+        <div className='container pb-72 pt-10'>
             <div className="relative text-white flex flex-col justify-center items-start px-8 sm:px-20">
                 {/* Small Intro Text */}
                 <p className="text-base sm:text-xl mb-4">Hello! I'm Maguire</p>
@@ -23,7 +22,7 @@ export default function Banner() {
                 </h1>
 
                 {/* Arrow Icon */}
-                <div className="mt-10 absolute -bottom-20 left-[450px]">
+                <div className="mt-10 absolute -bottom-64 left-[350px]">
                     <BottomArrowIcon />
                 </div>
             </div>

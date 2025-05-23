@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import WhatIDoLeftBg from '@/public/images/what-i-do-bg-left.png';
-import WhatIDoRightBg from '@/public/images/what-i-do-bg-right.png';
 
 export default function WhatIDo() {
   const skills = [
@@ -16,19 +15,19 @@ export default function WhatIDo() {
   const [activeSkill, setActiveSkill] = useState('Graphic Design');
 
   return (
-    <div className="bg-black mb-20">
-      <div className="relative text-white py-20 px-6 sm:px-16 ">
+    <div className="bg-black">
+      <div className="relative text-white py-48 px-6 sm:px-16 ">
         {/* Background Images */}
         <Image
           src={WhatIDoLeftBg}
           alt="left object"
           className="absolute left-0 bottom-0 w-[80px] sm:w-[120px]"
         />
-        <Image
+        {/* <Image
           src={WhatIDoRightBg}
           alt="right object"
           className="absolute right-0 -bottom-24 w-[100px] sm:w-[150px]"
-        />
+        /> */}
 
         <div className="container px-6 sm:px-20">
           {/* Heading */}
