@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import aboutMe from '@/public/images/about-me.png';
 
 export default function AboutMe() {
