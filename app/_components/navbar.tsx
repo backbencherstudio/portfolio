@@ -3,10 +3,10 @@ import React from 'react';
 export default function Navbar() {
     return (
         <div className="container mx-auto px-4">
-            <div className="flex items-center justify-between py-8">
+            <div className="flex items-center justify-between py-4 md:py-8">
                 {/* Logo */}
                 <div>
-                    <h1 className="text-[40px] font-bold text-white">Mg<span className="text-blue-500">.</span></h1>
+                    <h1 className="text-[28px] md:text-[40px] font-bold text-white">Mg<span className="text-blue-500">.</span></h1>
                 </div>
 
                 {/* Gradient Shadow Button */}
@@ -17,8 +17,8 @@ export default function Navbar() {
                     </div>
 
                     {/* Top White Button */}
-                    <button className="relative z-10 bg-white text-[#151414] text-lg md:text-xl font-medium px-8 py-3 rounded-md transition hover:bg-gray-100">
-                        Let’s Talk
+                    <button className="relative z-10 bg-white text-[#151414] text-base md:text-lg lg:text-xl font-medium px-4 md:px-6 lg:px-8 py-2 md:py-3 rounded-md transition hover:bg-gray-100">
+                        Let's Talk
                     </button>
                 </div>
             </div>

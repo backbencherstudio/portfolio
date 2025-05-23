@@ -36,7 +36,7 @@ export default function BestProject() {
             {/* Content */}
             <div className='w-full'>
                 <div className="absolute inset-0  bg-no-repeat py-10 ml-[550px] mt-16" style={{ backgroundImage: `url(${worksBg.src})` }} />
-                <div className="relative z-10 max-w-5xl mx-auto text-center">
+                <div className="relative z-10  mx-auto text-center">
                     {/* Heading */}
                     <h2 className="text-3xl sm:text-5xl font-bold mb-6">
                         <span className="text-black">Best </span>
@@ -44,7 +44,7 @@ export default function BestProject() {
                     </h2>
 
                     {/* Description */}
-                    <p className="text-gray-600 max-w-2xl mx-auto mb-10">
+                    <p className="text-gray-600 mx-auto mb-10">
                         Here are some select projects that showcase my passion for creating memorable web experiences, products, and brands to life
                     </p>
 
