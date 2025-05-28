@@ -12,7 +12,7 @@ export default function AboutMe() {
 
       {/* Foreground Text */}
       <div className="md:max-w-7xl relative font-medium z-10 container mx-auto text-center sm:text-left text-[#151414] px-4 sm:px-8 md:px-20">
-        <p className="text-xl sm:text-2xl md:text-3xl lg:text-[40px]">
+        <p className="text-xl sm:text-2xl md:text-3xl lg:text-[40px] md:leading-[140%]">
           I believe that the best designs are born from a deep understanding of users' needs and a
           commitment to continuous learning. I'm committed to staying at the forefront of design
           trends and emerging technologies, ensuring that my work remains fresh and relevant.

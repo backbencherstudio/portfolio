@@ -37,13 +37,13 @@ export default function BestProject() {
                 <div className="absolute inset-0 bg-no-repeat py-10 ml-0 sm:ml-[150px] md:ml-[50px] lg:ml-[550px] mt-8 sm:mt-12 md:mt-16 bg-contain sm:bg-auto" style={{ backgroundImage: `url(${worksBg.src})` }} />
                 <div className="relative z-10 mx-auto text-center px-4 sm:px-6 md:px-8">
                     {/* Heading */}
-                    <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 sm:mb-6">
+                    <h2 className="text-2xl sm:text-3xl md:text-[120px] pb-10 font-bold mb-4 sm:mb-6 leading-[160%]">
                         <span className="text-black">Best </span>
                         <span className="bg-gradient-to-r from-[#FDC14C] via-[#EA5CFB] to-[#2E5CFF] text-transparent bg-clip-text">Project.</span>
                     </h2>
 
                     {/* Description */}
-                    <p className="text-gray-600 mx-auto mb-6 sm:mb-8 md:mb-10 text-sm sm:text-base md:text-lg max-w-2xl">
+                    <p className="text-[#666666] mx-auto mb-6 sm:mb-8 md:mb-10 text-base sm:text-xl md:text-5xl leading-[160%] md:max-w-[1200px]">
                         Here are some select projects that showcase my passion for creating memorable web experiences, products, and brands to life
                     </p>
 

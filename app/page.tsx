@@ -5,6 +5,7 @@ import AboutMe from "./_components/about-me";
 import WhatIDo from "./_components/what-i-do";
 import BestProject from "./_components/best-project";
 import Review from "./_components/review";
+import Footer from "./_components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <WhatIDo />
       <BestProject />
       <Review />
+      <Footer />
     </div>
   );
 }
