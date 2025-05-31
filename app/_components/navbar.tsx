@@ -18,7 +18,7 @@ export default function Navbar() {
 
                     {/* Top White Button */}
                     <button className="relative z-10 bg-white text-[#151414] text-base md:text-lg lg:text-xl font-medium px-4 md:px-6 lg:px-8 py-2 md:py-3 rounded-md transition hover:bg-gray-100">
-                        Let's Talk
+                        Let&apos;s Talk
                     </button>
                 </div>
             </div>
